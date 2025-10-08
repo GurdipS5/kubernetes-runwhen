@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ResourceQuota
 metadata:
   name: compute-quota
-  namespace: $namespace
+  namespace: runwhen
 spec:
   hard:
     requests.cpu: "8"
